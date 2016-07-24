@@ -5,13 +5,6 @@
 }
 body{
 	margin:0;
-	background: #f0f0f01;
-	font: 14px/20px Arial, San-Serif;
-}
-h3
-{
-	line-height: 110%;
-	padding: 5% 0;
 }
 header{
 	width: 100%;
@@ -44,71 +37,44 @@ nav ul li{
 #bgimg1{
 	width:100%;
 }
+
+.first{
+	background-color: #333333;
+	width: 100%;
+	opacity: 0.90;
+	color: #FFF;
+	
+}
 section{
 	width: 29%;
 	float: left;
 	margin: 2% 2%;
-	text-align: center;
-}
-footer
-{
-	background: #333333;
-	width: 100%;
-	overflow: hidden;
-	opacity: 0.90;
-}
-footer p, footer h3
-{
-	color: #FFF;
-}
-footer p a
-{
-	color: #FFF;
-	text-decoration: none;
-}
-
-#1s{
-	float:left;
-	text-align: center;
-	margin: 2% 2%;
-	width: 29%;
-}
-#2s{
-	float: right;
-	text-align: center;
-	margin: 2% 2%;
-	width: 29%;
+	padding-bottom: 0px;
+	
+	
 }
 #social li{
+	
 	list-style: none;
 	display: inline;
+
 }
-ul.social li img
-{
-	height: 50px;
-}
-#3s{
-	float: left;
-	text-align: center;
-	margin: 2% 2%;
-	width: 29%;
-}
-/*
 #social li img{
 	vertical-align: middle;
 
 }
-*/
-/*
 #partner li{
 	float: left;
 }
-*/
-footer.second
-{
-	border-top: 1px solid #4D4E50;
+.second{
+	width: 100%;
+	border-top: 5px solid #4D4E50;
 	background-color: #333333;
-	max-height: 50px;
 	text-align: center;
 	opacity: 0.95;
+	color: #FFF;
+	
+}
+.second p{
+	text-align: center;
 }
