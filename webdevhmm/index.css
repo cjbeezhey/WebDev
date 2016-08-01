@@ -1,0 +1,163 @@
+.container-fluid{
+	padding: 0;
+}
+.navbar-brand #glogo{
+	height: 40px;
+}
+#navigation{
+	padding-left:15px;
+	padding-right: 15px;
+}
+#hero .item{
+	width: 100%;
+	height: 600px;
+}
+#hero .item img{
+	width: 100%;
+	height: auto;
+}
+nav#navigation{
+	height: 70px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.navbar-brand{
+	padding: 5px 5px;
+}
+img#glogo{
+	height: 150px;
+	width: auto;
+}
+#nav-links{
+	height: 70px;
+}
+.servicesh{
+	background-image: url('images/home-contact-bg.jpg');
+}
+.service-title{
+	padding-top: 5%;
+	padding-bottom: 15%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-shadow: rgb(255, 11, 3);
+	text-align: center;
+}
+.terml-wrap{
+	padding: 15px;
+}
+.terml{
+	background-color: #eceff1;
+	padding: 10px;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid #9ccc65;
+	box-shadow: 0.5 #eee;
+	height: 120px;
+}
+.googlemap-wrapper{
+	height: 380px;
+	margin-bottom: 40px;
+}
+.map-canvas{
+	height: 380px;
+	border: 10px solid #efefef;
+}
+.contact-info{
+	margin-top: 40px;
+}
+.contact-form input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact-form textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 120px;
+}
+.contact-form .mainBtn {
+  margin-top: 15px;
+  color: white;
+  background-color: #ec523f;
+  text-transform: uppercase;
+  border: 0;
+}
+
+
+footer
+{
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+	color:#FFF;
+}
+footer p, footer h3
+{
+	color: #FFF;
+}
+footer p a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+ul.social li
+{
+	display: inline;
+}
+ul.social li img
+{
+	height: 50px;
+}
+#section{
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+footer.second
+{
+	border-top: 1px solid #4D4E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+/**{
+	margin:0px;
+	border:0px;
+	padding:0px;
+}
+body{
+	margin:0;
+}
+header{
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 1%;
+	border-bottom: 1px solid black;
+	opacity: 0.70;
+}
+#logo{
+	padding-left: 100px;
+}
+nav{
+	float:right;
+	padding-top: 25px;
+	padding-right: 100px;
+}
+ul{
+
+}
+nav ul li{
+	display: inline-block;
+	padding-bottom:;
+
+}
+#bgimg{
+	width: 100%;
+	height: 100%;
+}
+#bgimg1{
+	width:100%;
+}*/

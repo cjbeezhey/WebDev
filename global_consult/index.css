@@ -65,8 +65,10 @@ section{
 	text-align: center;
 }
 #servicesh{
-
     background-image: url("images/number1.jpg");
+    background-style:cover;
+    width:100%;
+    height: auto;
    
 }
 #paraserv{
@@ -91,10 +93,9 @@ section{
     height: 120px;
 	margin-top: 10px;
 }
-#term1{
+.term1{
     padding-top: 20px;
     width: 45%;
-    float: left;
     margin: 1% 0%;
     text-align: justify;
     border: 2px solid #73AD21;
