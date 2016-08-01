@@ -1,3 +1,160 @@
-html{
+*{
+  padding: 0;
+  margin: 0;
+}
+html, body{
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  color: #212121;
+}
+a{
+  text-decoration: none;
+}
+.indica1{
+  border: 1px solid #cfd8dc;
+  background-color: #eceff1;
+}
+.indica2{
+  border: 1px solid #ffe0b2;
+  background-color: #fff3e0;
+}
+.indica3{
+  border: 1px solid #b3e5fc;
+  background-color: #e1f5fe;
+}
+
+/*    Header Section   */
+header{
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 170px;
+  background-color: rgba(255, 255, 255, .95);
+  filter: blur(7);
+  border-bottom: 1px solid #ff7043;
+}
+/*    Headet titltes   */
+#header-title{
+  width: 50%;
+  min-height: 80px;
+  margin: 0px auto;
+  text-align: center;
+  color: #0277bd;
+  cursor: pointer;
+}
+#header-title #main{
+  font-size: 3.5em;
+  font-weight: 800;
+}
+#header-title #subtext{
+  font-size: 1em;
+}
+
+/*    Navigation   */
+header nav{
+  width: 50%;
+  margin: 0px auto;
+}
+nav ul{
+  margin-top: 25px;
+  display: flex;
+}
+header li{
+  flex-grow: 1;
+  list-style: none;
+}
+.menu-list-item{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  height: auto;
+  width: 100%;
+  display: inline-fle;
+  background-color: #fff;
+  margin: 0px;
+  text-align: center;
+  color: #ff7043;
+  text-decoration: none;
+  font-weight: 800;
+}
+.menu-list-item:hover{
+  background-color: #cfd8dc;
+  color: #212121;
+}
+.menu-list-item #brand-logo{
+  height: 80px;
+  width: 80px;
+  float: left;
+  position: relative;
+  top: -30px;
+  left: 20px;
+}
+
+/*    Sections    */
+.full{
+  height: 100vh;
+  width: 100vw;
+  border: none;
+  display: inline-block;
+  overflow-y: hidden;
+}
+/*    Home Section    */
+#home{
+  background-image: url('../images/hero-main.jpg');
+  background-size: cover;
+}
+#home-wrap{
+ width: 80%;
+ margin: 40% auto;
+ margin-left: 10%;
+ display: flex;
+}
+
+.home-card{
+  width: 30%;
+  min-height: 40vh;
+  display: inline-block;
+  /*background-color: #fff;*/
+  margin-left: 2%;
+  margin-top: 50%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.home-card-head{
+  width: calc(100% - 2px);
+  height: 50px;
+}
+.home-card-head h3{
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #ff7043;
+}
+.home-card-description{
+  width: calc(100% - 6px);
+  padding: 2px 2px;
+}
+span.description-text{
+  font-size: 1.5em;
+  background-color: #fff;
+}
+.home-card-action{
+  width: calc(100% - 2px);
+}
+.home-card-action .button{
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #ff7043;
+  color: #fff;
+  padding: 15px 0 15px 0px;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  cursor: pointer;
+}
+.home-card-action .button:hover{
+  background-color: #0277bd;
 }
